@@ -8,7 +8,6 @@ import Trash from './assets/trash.svg'
 
 import { Container, ContainerItens, Image, H1, InputLabel, Input, Button, User } from './styles.js';
 
-
 function App() {
 
   const [users, setUsers] = useState([]);
