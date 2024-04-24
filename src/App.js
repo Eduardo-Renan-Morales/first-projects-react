@@ -10,10 +10,11 @@ import { Container, ContainerItens, Image, H1, InputLabel, Input, Button, User }
 
 function App() {
 
+  
+
   const [users, setUsers] = useState([]);
   const inputName = useRef()
   const inputAge = useRef()
-
 
 
   async function addNewUser() {
